@@ -1,0 +1,4 @@
+*.log
+*.pid
+
+rs-not-forked/data/*

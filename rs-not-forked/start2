@@ -1,0 +1,9 @@
+DIR=~/mongo-manager/rs-not-forked
+PORT=37044
+ID=d2
+
+mongod --port $PORT \
+  --dbpath $DIR/data/$ID \
+  --replSet rs0 \
+  --smallfiles \
+  --oplogSize 128
