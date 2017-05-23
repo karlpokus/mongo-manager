@@ -1,0 +1,4 @@
+DIR=~/mongo-manager/rs-forked
+
+# kill by pids
+kill $(cat $DIR/pids/*.pid)

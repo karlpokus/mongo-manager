@@ -2,3 +2,5 @@
 *.pid
 
 rs-not-forked/data/*
+rs-forked/data/*
+

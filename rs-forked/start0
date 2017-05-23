@@ -1,0 +1,12 @@
+DIR=~/mongo-manager/rs-forked
+PORT=37042
+ID=d0
+
+mongod --fork \
+  --port $PORT \
+  --dbpath $DIR/data/$ID \
+  --replSet rs0 \
+  --smallfiles \
+  --oplogSize 128 \
+  --logpath $DIR/logs/$ID.log --logappend \
+  --pidfilepath $DIR/pids/$ID.pid

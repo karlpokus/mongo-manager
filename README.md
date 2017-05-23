@@ -1,5 +1,5 @@
 # mongo-manager
-Shell scripts for managing replica sets, clusters
+Shell scripts for managing replica sets, clusters. Clone to `home/` for filepaths to work.
 
 # Ops
 
@@ -12,6 +12,11 @@ Shell scripts for managing replica sets, clusters
 - replica set name is `rs0`
 - end by sending interupt
 - `rs.initiate` && `rs.add` in shell
+
+### rs-forked
+- same as above but forked
+- logs to file
+- use `stopAll` to end all
 
 # License
 MIT
