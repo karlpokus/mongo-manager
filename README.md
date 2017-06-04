@@ -18,5 +18,8 @@ Shell scripts for managing replica sets, clusters. Clone to `home/` for filepath
 - logs to file
 - use `stopAll` to end all
 
+# todos
+- [ ] use bash [args flags](https://stackoverflow.com/questions/7069682/how-to-get-arguments-with-flags-in-bash-script)
+
 # License
 MIT
